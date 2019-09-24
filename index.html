@@ -2,8 +2,24 @@
 <html>
 <head>
 	<title>Fantasy Family</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="https://unpkg.com/stein-expedite@0.0.1/dist/index.js"></script>
 </head>
 <body>
 	<h1>Fantasy Family</h1>
+
+	<h2>Winners</h2>
+
+	<div>
+		<table style="width:50%" data-stein-url="https://api.steinhq.com/v1/storages/5d899f3f95caec04c53f70d7/Winners">
+		  <tr>
+		    <td>{{Year}}</td>
+		    <td>{{Winner}}</td>
+		    <td>{{Owner}}</td>
+		  </tr>
+		</table>
+
+	</div>
+
 </body>
 </html>
